@@ -1,0 +1,6 @@
+1. 	It keeps the lines of the first file and the common lines in memory. it also keeps the sorted lines in memory. 
+	So it depends on the memory of the server.
+2. 	I would remove the lines from inputFileALinesand outputFileLines as soon as I don't need them anymore.
+	I would insert the new value in the list in the correct index so that it will be sorted.
+3. 	It reads the first file and then the second file and then it writes the output, so it is not as efficient as it can get.
+4. 	I would read the input files in parallel.
